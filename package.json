@@ -1,0 +1,22 @@
+{
+  "name": "react-rxjs-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "recompose": "^0.25.1",
+    "rxjs": "^5.4.3"
+  },
+  "devDependencies": {
+    "babel-plugin-react-require": "^3.0.0",
+    "babel-preset-react-app": "^3.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
