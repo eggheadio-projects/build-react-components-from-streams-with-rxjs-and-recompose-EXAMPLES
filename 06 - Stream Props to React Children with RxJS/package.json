@@ -1,23 +1,25 @@
 {
   "name": "react-rxjs-lessons",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": null,
   "main": "index.js",
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "recompose": "^0.25.1",
-    "rxjs": "^5.4.3"
+    "react": "16.5.1",
+    "react-dom": "16.5.1",
+    "recompose": "0.30.0",
+    "rxjs": "5.5.12"
   },
   "devDependencies": {
+    "react-scripts": "1.0.0",
     "poi": "^9.3.10",
     "babel-plugin-react-require": "^3.0.0",
     "babel-preset-react-app": "^3.0.3"
   },
   "scripts": {
     "start": "npx poi index.js",
-    "test":
-      "echo \"Error: no test specified\" && exit 1"
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
